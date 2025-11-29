@@ -1,0 +1,214 @@
+/* src/styles/gamify.css */
+:root {
+    --neon-blue: #00f3ff;
+    --neon-green: #0aff0a;
+    --neon-purple: #bc13fe;
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+.gamify-container {
+    padding: 2rem;
+    color: #1f2937;
+}
+
+/* Neon Text Utilities */
+.text-neon-blue {
+    color: var(--neon-blue);
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+}
+
+.text-neon-green {
+    color: #16a34a;
+    /* Darker green for light mode readability */
+}
+
+.text-neon-purple {
+    color: #9333ea;
+    /* Darker purple for light mode readability */
+}
+
+/* Points Meter */
+.points-meter {
+    background: white;
+    border-radius: 24px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    position: relative;
+    overflow: hidden;
+}
+
+.meter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+
+.hp-display {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    background: linear-gradient(135deg, #16a34a 0%, #84cc16 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.level-badge {
+    background: #f3f4f6;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #374151;
+    border: 1px solid #e5e7eb;
+}
+
+.progress-track {
+    height: 12px;
+    background: #f3f4f6;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #84cc16 0%, #16a34a 100%);
+    border-radius: 6px;
+    transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 10px rgba(132, 204, 22, 0.3);
+}
+
+/* Reward Cards */
+.rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.reward-card {
+    background: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.reward-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: #84cc16;
+}
+
+.reward-card.locked {
+    opacity: 0.7;
+    background: #f9fafb;
+}
+
+.reward-card.claimed {
+    border-color: #16a34a;
+    background: #f0fdf4;
+}
+
+.reward-icon {
+    width: 48px;
+    height: 48px;
+    background: #ecfccb;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #4d7c0f;
+}
+
+.cost-badge {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-weight: 700;
+    color: #65a30d;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+/* Goals Section */
+.goals-section {
+    background: white;
+    border-radius: 24px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.goal-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #f3f4f6;
+    transition: background 0.2s;
+}
+
+.goal-item:last-child {
+    border-bottom: none;
+}
+
+.goal-item:hover {
+    background: #f9fafb;
+    border-radius: 12px;
+}
+
+.goal-progress {
+    width: 100px;
+    height: 6px;
+    background: #e5e7eb;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+
+.goal-progress-bar {
+    height: 100%;
+    background: #84cc16;
+    border-radius: 3px;
+}
+
+/* Widget Styles */
+.goals-widget {
+    /* Inherits glass-panel styles */
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.goals-widget:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(132, 204, 22, 0.3);
+}
+
+.widget-progress-circle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.widget-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.daily-mission-card {
+    background: linear-gradient(135deg, #ecfccb 0%, #d9f99d 100%);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border: 1px solid #bef264;
+}

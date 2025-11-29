@@ -1,0 +1,20 @@
+.main-layout {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--bg-app);
+}
+
+.main-content {
+    flex: 1;
+    margin-left: 100px;
+    /* Updated for slim sidebar */
+    padding: 2rem;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 1rem;
+    }
+}

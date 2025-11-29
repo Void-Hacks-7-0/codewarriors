@@ -1,0 +1,233 @@
+[
+    {
+        "id": "d1",
+        "name": "Acute Stress / Anxiety",
+        "short_description": "Short-term stress caused by workload, exams, or sleep loss.",
+        "symptoms": [
+            "insomnia",
+            "racing_heart",
+            "irritability",
+            "headache",
+            "loss_of_appetite",
+            "difficulty_concentrating"
+        ],
+        "risk_level": "Medium",
+        "action_self_care": "Practice deep breathing, take a break, and ensure 7+ hours of sleep.",
+        "action_medical": "Consult a counselor if symptoms persist for >2 weeks.",
+        "diet_recommendations": {
+            "eat": [
+                "Dark Chocolate (reduces cortisol)",
+                "Chamomile Tea",
+                "Fatty Fish (Omega-3)",
+                "Nuts & Seeds"
+            ],
+            "avoid": [
+                "Excess Caffeine",
+                "High Sugar Foods",
+                "Alcohol",
+                "Processed Snacks"
+            ]
+        }
+    },
+    {
+        "id": "d2",
+        "name": "Sleep Debt / Deprivation",
+        "short_description": "Chronic lack of sufficient sleep affecting cognitive function.",
+        "symptoms": [
+            "fatigue",
+            "daytime_sleepiness",
+            "irritability",
+            "difficulty_concentrating",
+            "memory_issues"
+        ],
+        "risk_level": "Low",
+        "action_self_care": "Establish a consistent sleep schedule and limit screen time before bed.",
+        "action_medical": "See a doctor if you suspect sleep apnea or chronic insomnia.",
+        "diet_recommendations": {
+            "eat": [
+                "Kiwi",
+                "Tart Cherry Juice",
+                "Warm Milk",
+                "Almonds"
+            ],
+            "avoid": [
+                "Caffeine after 2 PM",
+                "Heavy Meals before bed",
+                "Spicy Foods"
+            ]
+        }
+    },
+    {
+        "id": "d3",
+        "name": "Digital Eye Strain",
+        "short_description": "Discomfort caused by prolonged use of digital screens.",
+        "symptoms": [
+            "dry_eyes",
+            "headache",
+            "blurred_vision",
+            "neck_pain",
+            "sensitivity_to_light"
+        ],
+        "risk_level": "Low",
+        "action_self_care": "Follow the 20-20-20 rule: Every 20 mins, look 20 ft away for 20 secs.",
+        "action_medical": "Visit an optometrist if vision remains blurry.",
+        "diet_recommendations": {
+            "eat": [
+                "Carrots (Vitamin A)",
+                "Spinach (Lutein)",
+                "Blueberries",
+                "Walnuts"
+            ],
+            "avoid": [
+                "Dehydrating drinks (Alcohol)",
+                "Excessive Salt"
+            ]
+        }
+    },
+    {
+        "id": "d4",
+        "name": "Dehydration",
+        "short_description": "Insufficient water intake leading to physical and mental fatigue.",
+        "symptoms": [
+            "thirst",
+            "dark_urine",
+            "dry_mouth",
+            "fatigue",
+            "dizziness",
+            "headache"
+        ],
+        "risk_level": "Low",
+        "action_self_care": "Drink 500ml of water immediately and aim for 2.5L daily.",
+        "action_medical": "Seek help if you cannot keep fluids down or feel confused.",
+        "diet_recommendations": {
+            "eat": [
+                "Watermelon",
+                "Cucumber",
+                "Oranges",
+                "Coconut Water"
+            ],
+            "avoid": [
+                "Salty Snacks",
+                "Caffeine (Diuretic)",
+                "Alcohol"
+            ]
+        }
+    },
+    {
+        "id": "d5",
+        "name": "Common Cold / Viral Infection",
+        "short_description": "Viral infection of the upper respiratory tract.",
+        "symptoms": [
+            "runny_nose",
+            "sore_throat",
+            "cough",
+            "sneezing",
+            "mild_fever",
+            "fatigue"
+        ],
+        "risk_level": "Low",
+        "action_self_care": "Rest, stay hydrated, and use over-the-counter remedies.",
+        "action_medical": "See a doctor if fever exceeds 39°C or lasts >3 days.",
+        "diet_recommendations": {
+            "eat": [
+                "Chicken Soup",
+                "Ginger Tea",
+                "Citrus Fruits (Vitamin C)",
+                "Honey"
+            ],
+            "avoid": [
+                "Dairy (may thicken mucus)",
+                "Cold Drinks",
+                "Processed Sugar"
+            ]
+        }
+    },
+    {
+        "id": "d6",
+        "name": "Tension Headache",
+        "short_description": "Mild to moderate pain often described as a tight band around the head.",
+        "symptoms": [
+            "dull_head_pain",
+            "pressure_around_forehead",
+            "tenderness_scalp",
+            "neck_pain"
+        ],
+        "risk_level": "Low",
+        "action_self_care": "Manage stress, improve posture, and take a break from screens.",
+        "action_medical": "Consult a doctor if headaches are frequent or severe.",
+        "diet_recommendations": {
+            "eat": [
+                "Leafy Greens (Magnesium)",
+                "Water",
+                "Ginger",
+                "Fatty Fish"
+            ],
+            "avoid": [
+                "Aged Cheeses (Tyramine)",
+                "Processed Meats",
+                "Red Wine"
+            ]
+        }
+    },
+    {
+        "id": "d7",
+        "name": "Gastrointestinal Upset",
+        "short_description": "Digestive issues often linked to diet or stress.",
+        "symptoms": [
+            "nausea",
+            "stomach_pain",
+            "bloating",
+            "loss_of_appetite",
+            "heartburn"
+        ],
+        "risk_level": "Low",
+        "action_self_care": "Eat bland foods (BRAT diet), hydrate, and avoid caffeine.",
+        "action_medical": "Seek care if pain is severe or accompanied by fever.",
+        "diet_recommendations": {
+            "eat": [
+                "Bananas",
+                "Rice",
+                "Applesauce",
+                "Toast",
+                "Ginger"
+            ],
+            "avoid": [
+                "Spicy Foods",
+                "Fried Foods",
+                "Dairy",
+                "Caffeine"
+            ]
+        }
+    },
+    {
+        "id": "d8",
+        "name": "Diabetes",
+        "short_description": "Potential indicators of high blood sugar or pre-diabetes.",
+        "symptoms": [
+            "increased_thirst",
+            "frequent_urination",
+            "fatigue",
+            "blurred_vision",
+            "slow_healing_sores",
+            "unexplained_weight_loss"
+        ],
+        "risk_level": "High",
+        "action_self_care": "Monitor blood sugar, reduce sugar intake, and exercise daily.",
+        "action_medical": "Schedule a blood test (HbA1c) with your GP immediately.",
+        "diet_recommendations": {
+            "eat": [
+                "Leafy Greens",
+                "Whole Grains",
+                "Fatty Fish",
+                "Beans",
+                "Berries"
+            ],
+            "avoid": [
+                "Sugary Drinks",
+                "White Bread/Rice",
+                "Processed Snacks",
+                "Trans Fats"
+            ]
+        }
+    }
+]

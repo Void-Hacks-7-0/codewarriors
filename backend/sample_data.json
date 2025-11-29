@@ -1,0 +1,56 @@
+{
+    "users": {
+        "u123": {
+            "hp": 640,
+            "level": 2
+        }
+    },
+    "rewards": [
+        {
+            "id": "r1",
+            "name": "5% Clinic Discount",
+            "desc": "Valid at campus clinic",
+            "cost_hp": 300,
+            "status": "claimed",
+            "code": "CLINIC-5-XYZ"
+        },
+        {
+            "id": "r2",
+            "name": "Free Telehealth Consult",
+            "desc": "30-min mock consult",
+            "cost_hp": 600,
+            "status": "available",
+            "code": null
+        },
+        {
+            "id": "r3",
+            "name": "10% Lab Discount",
+            "desc": "Local lab partner",
+            "cost_hp": 1000,
+            "status": "locked",
+            "code": null
+        }
+    ],
+    "goals": [
+        {
+            "id": "g1",
+            "type": "daily",
+            "title": "Check Dashboard",
+            "desc": "Open dashboard today",
+            "progress": 0,
+            "target": 1,
+            "rewardHp": 10,
+            "status": "pending"
+        },
+        {
+            "id": "g2",
+            "type": "weekly",
+            "title": "Sleep 7+ hrs 3 days",
+            "desc": "Sleep target this week",
+            "progress": 1,
+            "target": 3,
+            "rewardHp": 50,
+            "status": "in_progress"
+        }
+    ]
+}
